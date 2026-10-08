@@ -1,0 +1,5 @@
+Viewer snapshot: 2026-10-08-r2
+Validation date: 2026-10-08
+Revision r2 shortens the documentation; runtime files are unchanged from r1.
+Runtime files are identical to the validated dist_tenfold snapshot.
+See START_HERE.txt for scope, requirements and demonstration.

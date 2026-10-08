@@ -1,0 +1,361 @@
+{
+  "testDate": "2026-10-08",
+  "environment": {
+    "os": "Windows 11 Home China",
+    "release": "10.0.26200",
+    "arch": "x64",
+    "cpu": "AMD Ryzen 5 6600H with Radeon Graphics",
+    "memoryGiB": 13.692329406738281
+  },
+  "testedFromRelocatedFolder": true,
+  "sourceRuntimeUnchanged": true,
+  "mainFftBufferMiB": 128,
+  "scope": "Viewer runtime; not the complete research-data generation environment.",
+  "untested": [
+    "macOS",
+    "Safari",
+    "Linux",
+    "physical mobile devices"
+  ],
+  "runtimeBytes": 43185981,
+  "manifest": [
+    {
+      "file": "index.html",
+      "bytes": 14483,
+      "sha256": "8cb7588df22d2c80c76b1de07971d6c5b8f4274a9527349ac9e04f0e84d484d6"
+    },
+    {
+      "file": "style.css",
+      "bytes": 9290,
+      "sha256": "47beb7b13757acc7ae5ff3b0581e2fa9880ce88ceb09a04c0e243c6039339e6c"
+    },
+    {
+      "file": "data.js",
+      "bytes": 30959109,
+      "sha256": "84fcc35f04d190e6034d8e11050c48a970bbb794329a64115468cbbd08c87f68"
+    },
+    {
+      "file": "tenfold.js",
+      "bytes": 12062792,
+      "sha256": "082a1936fdcd57cc9450c3178bcc33473e863bbcf8032e3f5dcb7c576e1734c5"
+    },
+    {
+      "file": "model.js",
+      "bytes": 972,
+      "sha256": "437dfa62da5258ed6f39c51de99cdfbab7fcba213dbe378c7d36251308e1ab09"
+    },
+    {
+      "file": "grid-model.js",
+      "bytes": 2803,
+      "sha256": "3b5ec5a198c76c555ccb3c5e168f2c6abdb44154e81fd4e97489796b282ab21b"
+    },
+    {
+      "file": "e20prime-data.js",
+      "bytes": 100677,
+      "sha256": "43c709d810495d468ef070c06262a776e623957e64f1170684cc85b467ceee12"
+    },
+    {
+      "file": "e20prime-model.js",
+      "bytes": 4229,
+      "sha256": "4fac49bf2e725dac77e0b327d9110cc5eaada49f1b6389730fbe86abbca08cc7"
+    },
+    {
+      "file": "diffraction.js",
+      "bytes": 6450,
+      "sha256": "a95479db9055e8b5186d6be1a4d9c463c92f7d4df7a1ef7864b1564393751951"
+    },
+    {
+      "file": "app.js",
+      "bytes": 25176,
+      "sha256": "7084e4027a685aa5bee04e4c0b75b82862f39ed7b7811f93fa7bb1001f8531bb"
+    }
+  ],
+  "results": [
+    {
+      "browser": "Chrome",
+      "version": "154.0.8037.98",
+      "mode": "headless, fresh profile, file://, offline:true, HTTP(S) requests blocked",
+      "startupMs": 1545.2607999999998,
+      "initial": {
+        "construction": "E20′",
+        "radius": 40,
+        "progress": 100,
+        "phaseId": "original",
+        "vertices": 3613,
+        "originIntensity": 3613,
+        "hash": 1007770337,
+        "fftMs": 728.3999999985099,
+        "chains": 1
+      },
+      "cases": [
+        {
+          "construction": "E20′",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 1007770337,
+          "fftMs": 728.3999999985099,
+          "chains": 1
+        },
+        {
+          "construction": "L5",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3616,
+          "originIntensity": 3616,
+          "hash": 3401151081,
+          "fftMs": 647.5
+        },
+        {
+          "construction": "L6",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3606,
+          "originIntensity": 3606,
+          "hash": 2594160957,
+          "fftMs": 701.6000000014901
+        },
+        {
+          "construction": "L8",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3606,
+          "originIntensity": 3606,
+          "hash": 1049545229,
+          "fftMs": 678.2000000029802
+        },
+        {
+          "construction": "L11",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 3815131417,
+          "fftMs": 655.1000000014901
+        },
+        {
+          "construction": "E20",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 578472493,
+          "fftMs": 650.7999999970198
+        },
+        {
+          "construction": "E20′",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 1007770337,
+          "fftMs": 728.3999999985099,
+          "chains": 1
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 8103,
+          "originIntensity": 8103,
+          "hash": 3394208928,
+          "fftMs": 663.8999999985099,
+          "chains": 1
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 67,
+          "phaseId": "original",
+          "vertices": 8103,
+          "originIntensity": 8103,
+          "hash": 3394208928,
+          "fftMs": 669,
+          "chains": 1
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 67,
+          "phaseId": "tenfold-88",
+          "vertices": 8112,
+          "originIntensity": 8112,
+          "hash": 2997149025,
+          "fftMs": 670,
+          "chains": 0
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 67,
+          "phaseId": "tenfold-210",
+          "vertices": 8120,
+          "originIntensity": 8120,
+          "hash": 2460993178,
+          "fftMs": 665.4000000059605,
+          "chains": 0
+        }
+      ],
+      "hover": "q = (0.000, 0.000) · I = 3613.000",
+      "networkRequests": [],
+      "filesOutsidePackage": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "blobWorkerPassed": true,
+      "threePanelLayoutPassed": true,
+      "inputAndDragPassed": true
+    },
+    {
+      "browser": "Edge",
+      "version": "154.0.4258.62",
+      "mode": "headless, fresh profile, file://, offline:true, HTTP(S) requests blocked",
+      "startupMs": 1606.8729999999996,
+      "initial": {
+        "construction": "E20′",
+        "radius": 40,
+        "progress": 100,
+        "phaseId": "original",
+        "vertices": 3613,
+        "originIntensity": 3613,
+        "hash": 1007770337,
+        "fftMs": 702.1999999955297,
+        "chains": 1
+      },
+      "cases": [
+        {
+          "construction": "E20′",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 1007770337,
+          "fftMs": 702.1999999955297,
+          "chains": 1
+        },
+        {
+          "construction": "L5",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3616,
+          "originIntensity": 3616,
+          "hash": 3401151081,
+          "fftMs": 638.6000000014901
+        },
+        {
+          "construction": "L6",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3606,
+          "originIntensity": 3606,
+          "hash": 2594160957,
+          "fftMs": 649.3000000044703
+        },
+        {
+          "construction": "L8",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3606,
+          "originIntensity": 3606,
+          "hash": 1049545229,
+          "fftMs": 641.9000000059605
+        },
+        {
+          "construction": "L11",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 3815131417,
+          "fftMs": 633.6000000014901
+        },
+        {
+          "construction": "E20",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 578472493,
+          "fftMs": 637
+        },
+        {
+          "construction": "E20′",
+          "radius": 40,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 3613,
+          "originIntensity": 3613,
+          "hash": 1007770337,
+          "fftMs": 702.1999999955297,
+          "chains": 1
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 100,
+          "phaseId": "original",
+          "vertices": 8103,
+          "originIntensity": 8103,
+          "hash": 3394208928,
+          "fftMs": 658,
+          "chains": 1
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 67,
+          "phaseId": "original",
+          "vertices": 8103,
+          "originIntensity": 8103,
+          "hash": 3394208928,
+          "fftMs": 651.7000000029802,
+          "chains": 1
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 67,
+          "phaseId": "tenfold-88",
+          "vertices": 8112,
+          "originIntensity": 8112,
+          "hash": 2997149025,
+          "fftMs": 658.8999999985099,
+          "chains": 0
+        },
+        {
+          "construction": "E20′",
+          "radius": 60,
+          "progress": 67,
+          "phaseId": "tenfold-210",
+          "vertices": 8120,
+          "originIntensity": 8120,
+          "hash": 2460993178,
+          "fftMs": 649.0999999940395,
+          "chains": 0
+        }
+      ],
+      "hover": "q = (0.000, 0.000) · I = 3613.000",
+      "networkRequests": [],
+      "filesOutsidePackage": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "blobWorkerPassed": true,
+      "threePanelLayoutPassed": true,
+      "inputAndDragPassed": true
+    }
+  ]
+}

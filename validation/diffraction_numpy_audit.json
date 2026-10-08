@@ -1,0 +1,12 @@
+{
+  "vertices": 3613,
+  "real_space_grid": 4096,
+  "box_length": 192,
+  "reciprocal_grid": 611,
+  "maximum_absolute_error": 0.00023794706544322253,
+  "maximum_relative_error_above_point_one": 6.301519893794247e-06,
+  "normalized_rms_error": 7.52665529190065e-08,
+  "centrosymmetry_error": 3.0517578125e-05,
+  "log_ceiling_error": 1.1825250911812191e-07,
+  "method": "Independent NumPy FFT with the Figure 1f gridding, per-vertex normalization and logarithmic display."
+}

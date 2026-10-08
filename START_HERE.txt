@@ -1,0 +1,44 @@
+CUT-AND-PROJECT INTERACTIVE VIEWER
+Version 2026-10-08-r2
+
+OPEN
+Extract the entire ZIP, then open dist_tenfold/index.html in Chrome or Edge.
+Keep all neighbouring files together. Open the extracted page, not a ZIP
+or email preview. No installation, internet, Java or programming environment
+is required. JavaScript must be enabled in the browser.
+
+TESTED ENVIRONMENT
+Windows 11 x64; Chrome 154.0.8037.98; Edge 154.0.4258.62.
+Offline browser tests passed. Other environments have not been validated.
+Test computer: AMD Ryzen 5 6600H with Radeon Graphics, 13.7 GiB system RAM.
+Initial display: about 1.5-1.6 seconds; initial FFT: about 0.7 seconds.
+Times vary by computer. No special hardware is required. Main FFT buffers
+use 128 MiB, plus browser/geometry memory; minimum RAM has not been measured.
+
+TRY IT
+Default: E20-prime, R = 40, t = 100%, h = (0, 0). Expected: one complete
+straight triple, 3,613 scattering vertices and I(0, 0) = 3613.000.
+
+- Select a construction; adjust radius R and replacement progress t.
+- Enter h or drag W; its centre snaps to one of 391 checked positions.
+- Click Show a straight triple to restore the demonstration.
+- Hover over a diffraction peak to read its coordinates and intensity.
+- Click a centre to inspect its local neighbourhood.
+
+Diffraction updates after parameter changes. Wait for the vertex count
+to replace the Updating message.
+
+INTERPRETATION
+Diffraction uses equally weighted, distinct vertices inside the displayed
+circle: a 4096 x 4096 grid, box side 192 edge lengths, I = |FFT|^2/N.
+Colours show log(1+I), with each sample's 99.95-percentile ceiling;
+compare numerical intensities across samples. There is no rotational
+averaging. Mathematical details are in Construction and interpretation
+on the page.
+
+FILES
+The HTML, CSS and JavaScript files contain the viewer and geometry data.
+validation/ contains browser and numerical checks; SHA256SUMS.txt records
+file hashes. Upstream research programs are separate from this package.
+For problems, report your browser version and settings to the corresponding
+author identified in the manuscript.
